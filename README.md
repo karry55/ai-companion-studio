@@ -28,6 +28,37 @@ pip install streamlit openai
 streamlit run app.py
 ```
 
+## 使用教程
+- 1. 安装依赖
+
+```bash
+pip install streamlit openai
+```
+
+- 2. 配置密钥
+
+```bash
+# Windows
+set DEEPSEEK_API_KEY=你的密钥
+# Mac/Linux
+export DEEPSEEK_API_KEY=你的密钥
+```
+- 3. 启动运行
+
+```bash
+streamlit run app.py
+```
+
+- 4. 功能操作
+
+ 左侧：设置昵称、性格，管理会话（新建 / 加载 / 删除）
+ 
+ 右侧：聊天对话，AI 流式回复
+ 
+ 聊天记录自动保存至本地sessions文件夹
+
+<br/>
+<br/>
 
 ## 版本迭代记录
 
