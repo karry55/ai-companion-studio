@@ -21,7 +21,7 @@ client = OpenAI(
 )
 
 # logo
-st.logo("资源/logo.png")
+# st.logo("资源/logo.png")
 
 # 系统提示词
 system_prompt = "你是一个可爱的ai助理,你的名字叫做karry"

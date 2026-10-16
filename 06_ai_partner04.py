@@ -100,7 +100,7 @@ client = OpenAI(
 )
 
 # logo
-st.logo("资源/logo.png")
+# st.logo("资源/logo.png")
 
 # 系统提示词
 system_prompt = """
